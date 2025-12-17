@@ -35,19 +35,17 @@ Berikut adalah langkah-langkah yang dilakukan untuk mendeploy proyek ini secara 
 ## 🔗 Link & Akses
 
 * **Link GitHub Repository:**
-    `[Salin Link GitHub Anda di sini]`
+    (https://github.com/ptrdanang/lks-cloud-668.git)
 * **Link Aplikasi Hasil Deployment:**
-    `[Salin Link Vercel/Netlify Anda di sini]`
-
+    (https://lks-cloud-668.vercel.app/)
 ---
 
 ## 🖼️ Tampilan Aplikasi (Screenshot)
 
 **[Screenshot 1: Tampilan Halaman Beranda (index.html)]**
-
+![alt text](image.png)
 **[Screenshot 2: Tampilan Halaman Tentang Peserta (about.html)]**
-*(Catatan: Anda bisa mengganti teks ini dengan gambar asli saat membuat PDF akhir)*
-
+![alt text](image-1.png)
 ---
 
 ## 🚧 Kendala yang Dihadapi dan Solusi
