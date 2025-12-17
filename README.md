@@ -1,8 +1,8 @@
 # ☁️ Proyek Deployment Web LKS Cloud Computing 2026
 
 **Bidang Lomba:** Cloud Computing
-**Peserta:** [Nama Anda]
-**Nomor Peserta:** [No. Peserta LKS Anda, contoh: 007]
+**Peserta:** Walidi Danang
+**Nomor Peserta:** 668
 
 ---
 
