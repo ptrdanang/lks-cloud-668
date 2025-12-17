@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda | LKS Cloud Computing 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>LKS Cloud Deploy ☁️</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Beranda</a></li>
+                    <li><a href="about.html">Tentang Peserta</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Selamat Datang di Portal Deployment Cloud</h2>
+                <p class="description">
+                    Aplikasi web statis sederhana ini dikembangkan sebagai tugas Lomba Kompetensi Siswa (LKS) SMK bidang Cloud Computing tahun 2026. Proyek ini mendemonstrasikan proses **Deployment Otomatis** dari GitHub ke Layanan Cloud (Vercel/Netlify).
+                </p>
+                
+                <a href="#fitur" class="button">Pelajari Lebih Lanjut</a>
+            </div>
+        </section>
+
+        <section id="fitur" class="content-section">
+            <div class="container">
+                <h3>Apa Itu Cloud Computing?</h3>
+                <div class="card-grid">
+                    <div class="card">
+                        <h4>IaaS (Infrastructure)</h4>
+                        <p>Menyediakan sumber daya komputasi dasar seperti Virtual Machine (VM), jaringan, dan penyimpanan.</p>
+                    </div>
+                    <div class="card">
+                        <h4>PaaS (Platform)</h4>
+                        <p>Menyediakan lingkungan yang siap digunakan untuk mengembangkan, menjalankan, dan mengelola aplikasi tanpa mengurus infrastruktur.</p>
+                    </div>
+                    <div class="card">
+                        <h4>SaaS (Software)</h4>
+                        <p>Perangkat lunak yang dapat diakses melalui internet, dikelola sepenuhnya oleh penyedia layanan (contoh: Google Workspace, Office 365).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="api-section">
+            <div class="container">
+                <h3>Fitur Dinamis (LKS Requirement)</h3>
+                <p>Mengambil data dari API publik sebagai demonstrasi fungsionalitas JavaScript.</p>
+                <div id="data-api" class="api-result">Loading data dari API...</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 LKS Cloud Computing. Deploy by [Nama Peserta Anda].</p>
+        </div>
+    </footer>
+
+    <script>
+        // IMPLEMENTASI LOGGING (LKS Requirement - Console Log)
+        console.log("Aplikasi Beranda LKS Cloud Dimuat (index.html).");
+        console.log("Memulai proses fetch data untuk fitur dinamis...");
+
+        // FITUR TAMBAHAN (LKS Requirement - Mengambil data dari API Publik)
+        // Menggunakan JSON Placeholder sebagai contoh API publik
+        fetch('https://jsonplaceholder.typicode.com/posts/1')
+            .then(response => {
+                console.log("Data API berhasil diterima. Status:", response.status);
+                return response.json();
+            })
+            .then(data => {
+                const apiDiv = document.getElementById('data-api');
+                apiDiv.innerHTML = `
+                    <h4>Contoh Data yang Berhasil Diambil:</h4>
+                    <strong>Judul:</strong> ${data.title} <br>
+                    <strong>Isi:</strong> ${data.body.substring(0, 100)}...
+                `;
+            })
+            .catch(error => {
+                console.error("Terjadi error saat mengambil data API!", error);
+                document.getElementById('data-api').textContent = 'Gagal memuat data API.';
+            });
+    </script>
+</body>
+</html>
