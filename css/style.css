@@ -121,7 +121,7 @@ header nav ul li a.active {
     border-radius: 8px;
     padding: 20px;
     flex: 1 1 300px; /* Fleksibel dan responsif */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(3, 243, 231, 0.05);
 }
 
 .card h4 {
@@ -149,7 +149,7 @@ header nav ul li a.active {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #1af307;
     color: white;
     text-align: center;
     padding: 1rem 0;
