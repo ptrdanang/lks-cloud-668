@@ -12,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background-color: #f4f7fa; /* Warna latar belakang cerah */
-    color: #333;
+    color: #06f712;
 }
 
 .container {
@@ -149,7 +149,7 @@ header nav ul li a.active {
 
 /* Footer */
 footer {
-    background-color: #1af307;
+    background-color: #20222e;
     color: white;
     text-align: center;
     padding: 1rem 0;
