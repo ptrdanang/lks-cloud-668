@@ -69,12 +69,11 @@
     </footer>
 
     <script>
-        // IMPLEMENTASI LOGGING (LKS Requirement - Console Log)
+       
         console.log("Aplikasi Beranda LKS Cloud Dimuat (index.html).");
         console.log("Memulai proses fetch data untuk fitur dinamis...");
 
-        // FITUR TAMBAHAN (LKS Requirement - Mengambil data dari API Publik)
-        // Menggunakan JSON Placeholder sebagai contoh API publik
+
         fetch('https://jsonplaceholder.typicode.com/posts/1')
             .then(response => {
                 console.log("Data API berhasil diterima. Status:", response.status);
@@ -93,6 +92,6 @@
                 document.getElementById('data-api').textContent = 'Gagal memuat data API.';
             });
     </script>
-    
+
 </body>
 </html>
