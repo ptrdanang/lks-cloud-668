@@ -24,7 +24,7 @@ Aplikasi web statis ini dibuat sebagai tugas Lomba Kompetensi Siswa (LKS) SMK Ta
 Berikut adalah langkah-langkah yang dilakukan untuk mendeploy proyek ini secara otomatis:
 
 1.  **Inisialisasi Git Lokal:** Direktori proyek diinisialisasi menggunakan `git init`.
-2.  **Commit ke GitHub:** Seluruh file proyek (termasuk `.gitignore` dan `README.md`) di-*commit* ke repositori [Nama Repositori Anda].
+2.  **Commit ke GitHub:** Seluruh file proyek (termasuk `.gitignore` dan `README.md`) di-commit ke repositori lks-cloud-668.
 3.  **Pemilihan Platform:** Platform deployment yang dipilih adalah **[Vercel/Netlify/Render]**.
 4.  **Koneksi Repositori:** Akun [Vercel/Netlify] dihubungkan dengan akun GitHub.
 5.  **Deployment Otomatis:** Repositori `lks-cloud-668` diimpor dan proses *Build* (*static site*) dimulai secara otomatis.
